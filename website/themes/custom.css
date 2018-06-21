@@ -1,0 +1,166 @@
+/* Insert your pool's unique CSS here */
+body { 
+  background-color: rgb(255,253,253);
+  overflow-x: hidden;
+}
+
+#top-bar {
+    background-color: rgb(38, 38, 38);
+/*    background-color: rgb(118, 86, 94); */
+}
+
+.nav-side-menu {
+    background-color: rgb(38, 38, 38);
+}
+
+.nav-side-menu .brand {
+    background-color: rgb(91, 21, 40);
+}
+
+.nav-side-menu li {
+    border-bottom: 1px solid rgba(61, 49, 52, 1);
+    border-left: none;
+}
+
+.nav-side-menu ul .active,
+.nav-side-menu li .active,
+.nav-side-menu li:hover {
+    border-left: none;
+    background-color: #af2849;
+    border-bottom-color: #5b1528;
+}
+
+.nav-side-menu li:hover {
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+.nav-side-menu li {
+    border-bottom: 1px solid #333333;
+}
+
+.infoBox {
+    background-color: rgba(160, 45, 75, 0.85);
+    box-shadow: 0 1px 1px 0 rgb(80, 22, 38);
+}
+
+.hashInfo {
+    background-color: rgb(110, 94, 98);
+}
+
+.card {
+    box-shadow: none;
+    background: #fff;
+}
+
+.table > thead > tr > th {
+    color: #fff;
+    background-color: #af2849;
+    border-bottom-color: #5b1528;
+    font-weight: 400;
+}
+
+.table > tbody > tr > td {
+    border-top-color: transparent;
+}
+
+.table > tbody > tr:hover td, .table > tbody > tr:hover th {
+    background-color: transparent;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    border-top: none;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th {
+background-color: rgba(175, 40, 73, 0.05);
+}                           
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: none;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #af2849;
+    border-color: #af2849;
+}
+
+.btn-default {
+    color: #ffffff;
+    background-color: #5b1528;
+    border-color: #5b1528;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    color: #ffffff;
+    background-color: #430f1d;
+    border-color: #430f1d;
+}                                                                                                                                                                      
+
+a {
+    color: #5b1526;
+}
+
+a:hover {
+    color: #af2849;
+}
+
+.stats > div:not(#addressError) > i.fa,
+.stats > div:not(#addressError) > span:not(.input-group-btn):first-of-type {
+    color: #5b1528;
+}
+
+.form-control:focus {
+    border-color: rgba(175, 40, 73, 0.75);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(175, 40, 73, 0.75);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(175, 40, 73, 0.75);
+}
+
+.input-group-addon {
+    background-color: #af2849;
+    border: none; 
+}
+
+.input-group-addon {
+    color: white;
+}
+
+.text-muted {
+    color: #ddd;
+}
+
+footer a {
+    color: rgb(219, 97, 128);
+}
+
+footer a:hover,
+footer a:focus {
+    color: hsla(345, 63%, 42%, 1);
+    text-decoration: none;
+}
+
+#blocksReport .pending td {
+    background-color: rgba(110, 94, 98, 0.1);
+}
+
+#blocksReport .unlocked td {
+    background-color: transparent;
+}
+
+.poolInfo {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    cursor: default;
+    padding: 15px;
+    border-radius: 3px;
+    color: #fff;
+    margin-bottom: 30px;
+    background: rgb(91, 21, 40);
+}
